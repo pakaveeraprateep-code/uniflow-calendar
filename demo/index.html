@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ตารางเรียนตัวอย่าง · UniFlow</title>
+<style>
+  body { margin: 0; font-family: -apple-system, "Thonburi", sans-serif; background: #F8FAFC; color: #1E293B; }
+  .note { background: #FEF3C7; color: #78350F; padding: 10px 16px; font-size: 14px; line-height: 1.5; }
+  main { padding: 16px; max-width: 980px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 8px 0 4px; }
+  p { margin: 0 0 12px; color: #475569; font-size: 14px; }
+  .scroll { overflow-x: auto; margin-bottom: 18px; }
+  table { border-collapse: collapse; background: #fff; font-size: 13px; min-width: 100%; }
+  th, td { border: 1px solid #CBD5E1; padding: 6px 8px; text-align: left; vertical-align: top; white-space: nowrap; }
+  th { background: #DBEAFE; color: #1E3A8A; font-weight: 600; }
+  td.class { background: #EFF6FF; }
+  h2 { font-size: 16px; margin: 18px 0 8px; }
+</style>
+</head>
+<body>
+<div class="note">
+  หน้านี้เป็น<b>ตัวอย่างสมมติ</b> สำหรับทดลองฟีเจอร์ "นำเข้าตารางเรียน" ของแอป UniFlow
+  ไม่ใช่เว็บของมหาวิทยาลัยใด และข้อมูลทั้งหมดไม่ใช่ของนักศึกษาจริง<br>
+  วิธีลอง: เปิดหน้านี้ใน Safari บน iPhone/iPad → กดแชร์ → เลือก UniFlow
+</div>
+<main>
+  <h1>ตารางเรียน ภาคการศึกษาที่ 2/2569</h1>
+  <p>นักศึกษาตัวอย่าง · รหัส 0000000000 · สาขาวิชาตัวอย่าง</p>
+
+  <div class="scroll">
+  <table>
+    <tr><th>วัน/เวลา</th><th>8:00-9:00</th><th>9:00-10:00</th><th>10:00-11:00</th><th>11:00-12:00</th><th>12:00-13:00</th><th>13:00-14:00</th><th>14:00-15:00</th><th>15:00-16:00</th><th>16:00-17:00</th><th>17:00-18:00</th></tr>
+    <tr><td>จันทร์</td><td></td><td class="class" colspan="2">DEMO1101 (1)<br>ห้อง 8-301</td><td></td><td></td><td class="class" colspan="3">DEMO2203 (2)<br>ห้อง B203</td><td></td><td></td></tr>
+    <tr><td>อังคาร</td><td class="class" colspan="3">DEMO3301 (1)<br>ห้อง D401</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>พุธ</td><td></td><td></td><td></td><td></td><td></td><td class="class" colspan="3">DEMO4401 (1)<br>ห้อง E502</td><td></td><td></td></tr>
+    <tr><td>พฤหัสบดี</td><td></td><td class="class" colspan="2">DEMO1101 (1)<br>ห้อง 8-301</td><td></td><td></td><td></td><td></td><td></td><td class="class" colspan="2">DEMO5501 (3)<br>ห้อง C305</td></tr>
+    <tr><td>ศุกร์</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  </div>
+
+  <h2>รายวิชาที่ลงทะเบียน</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>รหัสวิชา</th><th>ชื่อรายวิชา</th><th>หน่วยกิต</th><th>กลุ่ม</th><th>ผู้สอน</th><th>สอบกลางภาค</th><th>สอบปลายภาค</th></tr>
+    <tr><td>DEMO1101</td><td>คณิตศาสตร์ตัวอย่าง</td><td>3</td><td>1</td><td>อ.ตัวอย่าง หนึ่ง</td><td>21/12/2569 09:00-11:00</td><td>08/03/2570 09:00-12:00</td></tr>
+    <tr><td>DEMO2203</td><td>ฟิสิกส์ตัวอย่าง</td><td>3</td><td>2</td><td>อ.ตัวอย่าง สอง</td><td>22/12/2569 13:00-15:00</td><td>09/03/2570 13:00-16:00</td></tr>
+    <tr><td>DEMO3301</td><td>การเขียนโปรแกรมตัวอย่าง</td><td>3</td><td>1</td><td>อ.ตัวอย่าง สาม</td><td></td><td>10/03/2570 09:00-12:00</td></tr>
+    <tr><td>DEMO4401</td><td>วงจรไฟฟ้าตัวอย่าง</td><td>3</td><td>1</td><td>อ.ตัวอย่าง สี่</td><td>23/12/2569 09:00-11:00</td><td></td></tr>
+    <tr><td>DEMO5501</td><td>ภาษาอังกฤษตัวอย่าง</td><td>3</td><td>3</td><td>อ.ตัวอย่าง ห้า</td><td></td><td>11/03/2570 13:00-15:00</td></tr>
+  </table>
+  </div>
+</main>
+</body>
+</html>
